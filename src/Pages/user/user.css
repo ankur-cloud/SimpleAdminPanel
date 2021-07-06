@@ -1,0 +1,109 @@
+.user{
+    flex: 4;padding: 20px;
+}
+.userTitleContainer{
+    display: flex;align-items: center;justify-content: space-between;
+
+}
+.userTitle{color: burlywood;}
+.userAddButton{
+    width: 80px;border: none;padding: 5px;background-color: teal;cursor: pointer;color: whitesmoke;font-size: 16px;
+}
+.userContainer{
+    display: flex;margin-top: 20px;
+}
+.userShow{
+    flex: 1;padding: 20px;
+   box-shadow: 20px 16px 7px 4px rgba(207,53,97,0.83);
+-webkit-box-shadow: 20px 16px 7px 4px rgba(207,53,97,0.83);
+-moz-box-shadow: 20px 16px 7px 4px rgba(207,53,97,0.83);
+}
+
+.userUpdate{
+    box-shadow: 20px 16px 7px 4px rgba(207,53,97,0.83);
+-webkit-box-shadow: 20px 16px 7px 4px rgba(207,53,97,0.83);
+-moz-box-shadow: 20px 16px 7px 4px rgba(207,53,97,0.83);
+    flex: 2;padding: 20px;
+margin-left: 20px;
+}
+
+.userShowTop{ 
+    display: flex;align-items: center;
+}
+.userShowImg{ 
+    width: 65px;height: 65px;border-radius: 60%;object-fit: cover;
+}
+.userShowTopTitle{ 
+    display: flex;flex-direction: column;margin-left: 20px;
+}
+.userShowUserName{font-weight: 600; }
+.userShowUserTitle{ 
+    font-weight: 300;
+}
+.userShowBottom{ 
+    margin-top: 20px;
+}
+.userShowTitle{ 
+    font-size: 14px;font-weight: 600;color: darkgray;
+}
+.userShowInfo{
+    display: flex;align-items: center;margin: 20px 0px; color: #444;
+}
+.userShowIcon{
+    font-size: 16px !important;
+}
+.userShowInfoTitle{
+    margin-left: 10px;
+}
+
+
+
+.userUpdate{}
+   
+
+
+
+
+
+.userUpdateTitle{
+    font-size: 24px;font-weight: 600;
+}
+.userUpdateForm{
+    display: flex;justify-content: space-between;margin-top: 20px;
+}
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;margin-top: 20px;
+}
+/* .userUpdateItem>label{
+    margin-bottom: 5px;font-size: 14px;
+} */
+.userUpdateLabel{
+    margin-bottom: 5px;font-size: 14px;
+}
+.userUpdateImg{
+    width: 100px;height: 100px;border-radius: 10px;object-fit: cover;margin-right: 15px;
+}
+
+.userUpdateInput{
+    border: none;width: 250px;border-bottom:1px solid gray ;
+}
+
+.userUpdateRight{
+    display: flex;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.userUpdateUpload{
+    display: flex;align-items: center;
+}
+.userUpdateButton{
+display: inline;
+    border-radius: 5px;border: none;padding: 5px;cursor: pointer;background-color: darkblue;color: whitesmoke;font-weight: 600;
+
+}
